@@ -1,14 +1,30 @@
-# 2048 game
+# 2048 Game
 
-This project was implementend following next rules:
-- The game field is 4 x 4
-- Each cell can be empty or contain one of the numbers: 2, 4, 8 ... 2^n
-- All the numbers should be moved in the selected direction until all empty cells are filled in
-- 2 equal cells should be merged into a doubled number
-- The merged cell can’t be merged twice during one move
-- The move is possible if at least one cell is changed after the move
-- After move 2 or 4 appears in a random empty cell. 4 probability is 10%
-- When 2048 value is displayed in any cell, win message will be shown.
-- The `game over` message will be shown if there are no more available moves.
-- Score increases with each move. The score will be increased by the sum of all merged cells.
-- You can move cells using arrow buttons on your keyboard, or using swipes if you use touchscreen
+This project is a JavaScript implementation of the classic 2048 game.
+
+![Game Demo](https://techamster.github.io/2048/)
+
+## About the Game
+
+The 2048 game is a puzzle game where the player slides numbered tiles on a grid to combine them and create a tile with the number 2048.
+
+## Features
+
+- **Keyboard Controls**: Use arrow keys to move the tiles.
+- **Swipe Gestures**: Swipe up, down, left, or right on touchscreen devices to move the tiles.
+- **Merge Tiles**: Tiles with the same number merge into one when they collide.
+- **Win & Lose Conditions**: Win by reaching the 2048 tile; the game ends when no more moves are possible.
+- **Score System**: Increase your score by merging tiles.
+- **Best Score Tracking**: Your best score is stored locally via `localStorage`.
+
+## How to Play
+
+- **Getting Started**: Open ![Game Demo](https://techamster.github.io/2048/) in a web browser and press "Start".
+- **Keyboard Controls**: Use arrow keys to move tiles in up, down, left, or right directions.
+- **Swipe Gestures**: Swipe up, down, left, or right on touchscreen devices to move tiles.
+
+## Implementation Details
+
+- The game logic is implemented in pure JavaScript without any external libraries.
+- The grid layout is created using HTML and styled using CSS.
+- Event listeners are used to capture keyboard input for tile movement.
