@@ -19,7 +19,7 @@ The 2048 game is a puzzle game where the player slides numbered tiles on a grid 
 
 ## How to Play
 
-- **Getting Started**: Open [Game Demo](https://techamster.github.io/2048/) in a web browser and press "Start".
+- **Getting Started**: To play the game, [click here](https://techamster.github.io/2048/) and press "Start".
 - **Keyboard Controls**: Use arrow keys to move tiles in up, down, left, or right directions.
 - **Swipe Gestures**: Swipe up, down, left, or right on touchscreen devices to move tiles.
 
